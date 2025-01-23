@@ -1,0 +1,84 @@
+.dashboard-button{
+  color: white;
+  transform: rotate(90deg);
+  font-size: 25px;
+  background-color:rgb(23, 183, 148);
+  width: 56px;
+  height: 55px;
+  margin-right: 1px;
+  transition: 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.dashboard{
+  position: fixed;
+  right: 0;
+  border-radius: 40px 0px;
+  margin-left: 1250px;
+  background-color: rgb(47, 82, 119);
+  color: white;
+  width: 200px;
+  height: 940px;
+  box-shadow: 0px 0px 10px 0px black;
+  transition: 0.7s;
+  display: none;
+  z-index: 100;
+}
+
+.close{
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.close:hover{
+  color: rgb(178, 74, 74);
+}
+.home{
+  margin-top: 40px;
+  padding: 20px 15px;
+  background-color: rgb(37, 97, 149);
+}
+.contact-dash{
+  padding: 20px 15px;
+  background-color: rgb(37, 97, 149);
+}
+
+.home:hover, .contact-dash:hover{
+  opacity: 0.8;
+}
+.jasonet{
+  font-size: 25px;
+  padding-top: 70px;
+  padding-left: 30px;
+}
+.feedback{
+  border: none;
+  height: 50px;
+  width: 200px;
+  margin-top: 560px;
+  background-color: rgb(124, 142, 158);
+  color: white;
+  font-weight: bold;
+  transition: 0.2s;
+}
+.feedback:hover{
+  background-color: white;
+  color: rgb(124, 142, 158);
+}
+
+.forCursor{
+  cursor: none;
+}
+
+.logo-dash img{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 30px;
+}

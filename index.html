@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jasonet</title>
+  <link rel="icon" type="image/x-icon" href="Jasonet.png">
+
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="body.css">
+  <link rel="stylesheet" href="dashboard.css">
+  <link rel="stylesheet" href="avail-page.css">
+  <link rel="stylesheet" href="responsive.css">
+  
+</head>
+<body>
+
+  <div class="adver">
+    <img src="ezgif-7-8837919de6.gif" alt="">
+  </div>
+
+  <header>
+    <div class="logo">
+      <img src="Jasonet.png" alt="Jasonet Logo">
+    </div>
+    <div class="title-area">
+      <h1 class="owner">
+        Jasonet
+      </h1>
+    </div>
+    <div>
+      <button class="contact">
+        Contact Us
+      </button>
+    </div>
+    <button class="dashboard-button">
+      |||
+    </button>
+  </header>
+  
+  <section class="container">
+
+    <div class="avail-page">
+      <div class="avail-close" onclick="close()">
+        x
+      </div>
+      <div class="avail-jasonet">
+        <h1>
+          Jasonet
+        </h1>
+      </div>
+      <form action="">
+
+        <div class="info">
+          <div class="labels">
+            <label for="">Name</label> 
+            <input type="text" placeholder="John Doe" required>
+          </div>
+          <div class="labels">
+            <label for="">Email</label>
+            <input type="email" placeholder="example@email.com" required>
+          </div>
+          <div class="labels">
+            <label for="">Phone #</label>
+            <input type="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="0912-345-6789" required>
+          </div>
+          <div class="labels">
+            <label for="">Birhtdate:</label>
+            <input class="date-size" type="date" min="1900-01-01" max="2025-12-31" required>
+          </div>
+          <div class="labels">
+            <label for="">Barangay:</label>
+            <select required>
+              <option value="">Balingayan</option>
+              <option value="">Balite</option>
+              <option value="">Baruyan</option>
+              <option value="">Batino</option>
+              <option value="">Bayanan I</option>
+              <option value="">Bayanan II</option>
+              <option value="">Biga</option>
+              <option value="">Bondoc</option>
+              <option value="">Bucayao</option>
+              <option value="">Buhuan</option>
+              <option value="">Bulusan</option>
+              <option value="">Calero</option>
+              <option value="">Camansihan</option>
+              <option value="">Camilmil</option>
+              <option value="">Canubing I</option>
+              <option value="">Canubing II</option>
+              <option value="">Comunal</option>
+              <option value="">Guinobatan</option>
+              <option value="">Gulod</option>
+              <option value="">Gutad</option>
+              <option value="">Ibaba East</option>
+              <option value="">Ibaba West</option>
+              <option value="">Ilaya</option>
+              <option value="">Lalud</option>
+              <option value="">Laxareto</option>
+              <option value="">Libis</option>
+              <option value="">Lumang Bayan</option>
+              <option value="">Mahal na Pangalan</option>
+              <option value="">Maidlang</option>
+              <option value="">Malad</option>
+              <option value="">Malamig</option>
+              <option value="">Managpi</option>
+              <option value="">Masipit</option>
+              <option value="">Nag-iba I</option>
+              <option value="">Nag-iba II</option>
+              <option value="">Navotas</option>
+              <option value="">Pachoca</option>
+              <option value="">Palhi</option>
+              <option value="">Panggalaan</option>
+              <option value="">Parang</option>
+              <option value="">Patas</option>
+              <option value="">Personas</option>
+              <option value="">Putingtubig</option>
+              <option value="">Salong</option>
+              <option value="">San Antonio</option>
+              <option value="">San Vicente Central</option>
+              <option value="">San Vicente East</option>
+              <option value="">San Vicente North</option>
+              <option value="">San Vicente South</option>
+              <option value="">San Vicente West</option>
+              <option value="">Santa Cruz</option>
+              <option value="">Santa Isabel</option>
+              <option value="">Santa Maria Village</option>
+              <option value="">Santa Rita</option>
+              <option value="">Santo Niño</option>
+              <option value="">Sapul</option>
+              <option value="">Silonay</option>
+              <option value="">Suqui</option>
+              <option value="">Tawagan</option>
+              <option value="">Tawiran</option>
+              <option value="">Tibag</option>
+              <option value="">Wawa</option>
+            </select>
+          </div>
+          <div class="labels">
+            <label for="">Street:</label>
+            <input type="text" placeholder="Example St.">
+          </div>
+          <div class="labels">
+            <label for="">House #:</label>
+            <input type="text" required>
+          </div>
+          <div class="labels">
+            <label for="">Agent</label>
+            <select required>
+              <option>Keith Lowell Alcañices</option>
+              <option>John Arce Evora</option>
+              <option>Stephen Bernat</option>
+              <option>Nicaela Vergara</option>
+              <option>Erlene Bodegas</option>
+              <option>Faith Bajo</option>
+              <option>Aaron Alveyra</option>
+              <option>Daniel Ebite</option>
+              <option>Reymar Villalino</option>
+              <option>Clarence Jerez</option>
+            </select>
+          </div>
+        </form>
+        <div>
+        </div>
+        <div class="btn-field">
+          <button class="submit-btn">
+            Submit
+          </button>
+        </div>
+      </div>
+      </div>
+
+    <div class="blur"></div>
+    
+    <div class="dashboard">
+      <div class="close">
+        x
+      </div>
+      <div class="jasonet">
+        <div class="logo-dash">
+          <img src="Jasonet.png" alt="Jasonet Logo">
+        </div>
+        <h1 class="forCursor">
+          Jasonet
+        </h1>
+      </div>
+      <div class="home">
+        Home
+      </div>
+      <div class="contact-dash">
+        Contact
+      </div>
+      <div>
+        <button class="feedback">
+          Send Feedback
+        </button>
+      </div>
+    </div>
+
+    <section>
+      <div class="top-field">
+        <img src="top-field.png" alt="">
+      </div>
+    </section>
+
+    <div class="plan-section-header">
+      <h1>Plans</h1>
+    </div>
+
+    <div class="content">
+      <div class="plans">
+        <h1 class="plan-header">
+          Plan <span class="price">1500</span>
+        </h1>
+        <div class="plan-content">
+          <h1 class="plan-provider">
+            Jasonet
+          </h1>
+          <h1 class="plan-mb">
+            100<span class="mbps">mbps</span>
+          </h1>
+          <button class="avail-button" onclick="avail()">
+            Avail Now
+          </button>
+        </div>
+      </div>
+
+      <div class="plans">
+        <h1 class="plan-header">
+          Plan <span class="price">2500</span>
+        </h1>
+        <div class="plan-content">
+          <h1 class="plan-provider">
+            Jasonet
+          </h1>
+          <h1 class="plan-mb">
+            200<span class="mbps">mbps</span>
+          </h1>
+          <button class="avail-button" onclick="avail()">
+            Avail Now
+          </button>
+        </div>
+      </div>
+      <div class="plans">
+        <h1 class="plan-header">
+          Plan <span class="price">3500</span>
+        </h1>
+        <div class="plan-content">
+          <h1 class="plan-provider">
+            Jasonet
+          </h1>
+          <h1 class="plan-mb">
+            300<span class="mbps">mbps</span>
+          </h1>
+          <button class="avail-button" onclick="avail()">
+            Avail Now
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ads">
+    <div class="addition">
+      <img src="discount.png" alt="">
+    </div>
+    <div class="addition">
+      <img src="advisory.png" alt="">
+    </div>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+</html>
